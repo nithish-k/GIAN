@@ -1,66 +1,216 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>3rd Electronic Class</title>
-</head>
-<body>
-	<header>
-		<h1>Welcome to 3rd Electronic Class</h1>
-	</header>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VCE ECE-A</title>
+    <style>
+        * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        }
 
-	<nav>
-		<ul>
-			<li><a href="#about">About</a></li>
-			<li><a href="#schedule">Schedule</a></li>
-			<li><a href="#resources">Resources</a></li>
-			<li><a href="#contact">Contact Us</a></li>
-		</ul>
-	</nav>
+        body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        }
 
-	<main>
-		<section id="about">
-			<h2>About</h2>
-			<p>Welcome to the 3rd Electronic Class! This class is designed to provide you with an in-depth understanding of electronic systems and devices. Through lectures, lab work, and project-based learning, you'll gain the skills and knowledge needed to become an expert in the field.</p>
-		</section>
+        .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        }
 
-		<section id="schedule">
-			<h2>Schedule</h2>
-			<p>Here's a general outline of what we'll cover in this course:</p>
-			<ul>
-				<li>Week 1: Introduction to Electronics</li>
-				<li>Week 2: Resistors and Capacitors</li>
-				<li>Week 3: Diodes and Transistors</li>
-				<li>Week 4: Op-Amps and Amplifiers</li>
-				<li>Week 5: Digital Logic</li>
-				<li>Week 6: Microcontrollers</li>
-				<li>Week 7: Final Project</li>
-			</ul>
-		</section>
+        header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        }
 
-			<section id="resources">
-			<h2>Resources</h2>
-			<p>Here are some resources you may find helpful:</p>
-			<ul>
-				<li><a href="https://www.allaboutcircuits.com/">All About Circuits</a> - a website with tutorials and articles on electronic circuits and systems</li>
-				<li><a href="https://www.digikey.com/">Digi-Key</a> - an online electronics distributor that offers a wide range of components</li>
-				<li><a href="https://www.arduino.cc/">Arduino</a> - a popular microcontroller platform for prototyping and building electronics projects</li>
-			</ul>
-		</section>
+        .logo {
+        font-size: 32px;
+        font-weight: bold;
+        }
 
-		<section id="contact">
-			<h2>Contact Us</h2>
-			<p>If you have any questions or concerns about the course, please don't hesitate to contact us:</p>
-			<ul>
-				<li>Email: <a href="mailto:info@3rd-electronic-class.com">info@3rd-electronic-class.com</a></li>
-				<li>Phone: +1-123-456-7890</li>
-				<li>Address: 123 Main St, Anytown, USA</li>
-			</ul>
-		</section>
-	</main>
+        nav {
+        float: right;
+        }
 
-	<footer>
-		<p>Copyright © 2023 3rd Electronic Class. All rights reserved.</p>
-	</footer>
+        nav ul {
+        list-style: none;
+        margin-top: -35px;
+        padding: 0;
+        }
 
+        nav li {
+        display: inline-block;
+        margin-left: 20px;
+        }
+
+        nav a {
+        color: #fff;
+        text-decoration: none;
+        }
+
+        nav a:hover {
+        text-decoration: underline;
+        }
+
+        main {
+        padding: 40px 0;
+        }
+
+        section h2 {
+        margin-bottom: 20px;
+        }
+
+        table {
+        border-collapse: collapse;
+        width: 100%;
+        }
+
+        table th, table td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ccc;
+        }
+
+        table th {
+        background-color: #333;
+        color: #fff;
+        }
+
+        ul {
+        list-style: disc;
+        margin-left: 20px;
+        }
+
+        footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+        }
+
+        footer p {
+        margin: 0;
+        }
+
+        a {
+        color: #333;
+        }
+
+        a:hover {
+        color: #666;
+        }
+        #creds li{
+            display:  inline-block;
+        }
+        #creds{
+            text-align: right;
+            margin-top: -25px;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo">Electronics and Communication Engineering</h1>
+        <nav>
+          <ul>
+            <li><a href="https://vce.ac.in" target="_blank">VCE</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resources">Resources</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <main>
+      <section id="about">
+        <div class="container">
+          <h2>About the Class</h2>
+          <p>
+            Welcome to electronics and communication engineering, vasavi college of engineering. 
+            We students of ECE-A are required to do this website as a part of CN assignment. 
+          </p>
+        </div>
+      </section>
+      
+      <section id="schedule">
+        <div class="container">
+          <h2>Class Schedule</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Topic</th>
+                <th>Faculty</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monday</td>
+                <td>6:00pm - 8:00pm</td>
+                <td>Introduction to circuits</td>
+                <td>GR.Padmini</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>6:00pm - 8:00pm</td>
+                <td>Computer Networks</td>
+                <td>K. Veeraswamy</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>6:00pm - 8:00pm</td>
+                <td>Digital signal Processing</td>
+                <td>B.Uma Mahesh Babu</td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+        </div>
+      </section>
+      
+      <section id="projects">
+        <div class="container">
+          <h2>Projects by us.</h2>
+          <ul>
+            <li>IVRS home automation system</li>
+            <li>Audio spectrum analyser</li>
+            <li>Network analyser</li>
+            <li>Surveillance robot</li>
+          </ul>
+        </div>
+      </section>
+      <br>
+      <section id="resources">
+        <div class="container">
+          <h2>Resources</h2>
+          <ul>
+            <li><a href="https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering" target="_blank">Learn How to Solder</a></li>
+            <li><a href="https://www.allaboutcircuits.com/textbook/" target="_blank">All About Circuits - Online Textbook</a></li>
+            <li><a href="https://www.arduino.cc/en/Tutorial/HomePage" target="_blank">Arduino Tutorials</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+          <p>&copy; 2023 ECE-A. All rights reserved.</p>
+          <ul id="creds">
+            <li>Nithish 025 &nbsp| &nbsp</li>
+            <li>Karthikeya 015 &nbsp| &nbsp</li>
+            <li>Uday 053</li>
+          </ul>
+        </div>
+      </footer>
 </body>
-</html>
+</html>      
